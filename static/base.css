@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: Nunito-Sans;
+    background-color: rgb(209, 207, 207);
+    text-align: center;
+}
+
+
+
+.heading {
+    color: #272626;
+    font-size: 8vh;
+    text-shadow: 3px 3px 8px #4f4e4e;
+    margin-top: 3rem;
+   
+}
+
+.sub {
+    font-size: 2rem;
+}

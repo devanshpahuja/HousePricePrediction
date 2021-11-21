@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block heading %} Find your Palace {% endblock %}
+{% block subhead %} Location : Bangalore {% endblock %}
+
+{%block content%}
+        <div class="form container">
+            <form action="{{url_for('home')}}" method='POST'>
+                <input class="input mt-5 ps-3" name="area" placeholder="Area of house(sq. feet)" />
+                <input class="input mt-4 ps-3" name="bhk" placeholder="bhk?" />
+
+
+                
+            <input class="input mt-4 ps-3" name="resale" placeholder="resale" />
+            
+            
+            <input class="input mt-4 ps-3" name="Staff_number" placeholder="Staff_number" />
+
+
+                
+            <input class="input mt-4 ps-3" name="society" placeholder="society" />
+
+
+                <!--for gym, pool, hospital, garden,tRACK,mall, HARVESTING, GAMES, sports, Clubhouse, playground-->
+                
+            <input class="input mt-4 ps-3" name="intercom" placeholder="intercom" />
+
+                
+            <input class="input mt-4 ps-3" name="atm" placeholder="atm" />
+
+                
+            <input class="input mt-4 ps-3" name="security" placeholder="security" />
+
+
+                
+            <input class="input mt-4 ps-3" name="backup" placeholder="backup" />
+
+                
+            <input class="input mt-4 ps-3" name="parking" placeholder="parking" />
+
+                
+            <input class="input mt-4 ps-3" name="Staffquarter" placeholder="Staffquarter" />
+
+            
+            <input class="input mt-4 ps-3" name="cafe" placeholder="cafe" />
+
+            
+            <input class="input mt-4 ps-3" name="MPR" placeholder="MPR" />
+
+            
+            <input class="input mt-4 ps-3" name="hospital" placeholder="hospital" />
+
+            
+            <input class="input mt-4 ps-3" name="Machine" placeholder="Machine" />
+
+            
+            <input class="input mt-4 ps-3" name="Wifi" placeholder="Wifi" />
+
+            
+            <input class="input mt-4 ps-3" name="Vastu_complaint" placeholder="Vastu_complaint" />
+
+            
+            <input class="input mt-4 ps-3" name="fusnished" placeholder="fusnished" />
+
+            
+
+          
+
+                <button class="submit mt-5" value="1diction" type="submit">Submit</button>
+
+            </form>
+        </div>
+
+        <br>
+        <br>
+        <h3>©2021 Ritesh Uppal</h3>
+
+        {%endblock%}

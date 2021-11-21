@@ -1,0 +1,87 @@
+
+
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.form {
+    margin-top: 3vh;
+    text-align: center;
+   
+}
+
+.inpu {
+    outline: none;
+    border-radius: 15px;
+    width: 40vw;
+    height: 6vh;
+    border-color: rgb(4, 50, 136);
+    color: #0f0438;
+    font-size: 2.6vh;
+}
+
+.input {
+    outline: none;
+    border-radius: 15px;
+    width: 25vw;
+    height: 6vh;
+    border-color: rgb(4, 50, 136);
+    color: #0f0438;
+    font-size: 2.6vh;
+
+}
+
+.submit {
+    background-color:rgb(4, 50, 136);
+    color:#000000;
+    width: 12vw;
+    height: 6vh;
+    outline: none;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 3.6vh;
+    border: none;
+    box-shadow: 1px 8px 17px -3px black;
+    display:block;
+    margin: auto;
+}
+
+.label {
+    font-size: 1.4rem;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-left: -14px;
+    
+}
+
+
+
+.checkbox {
+    width: 1.1rem;
+    height: 1.1rem;
+   color: rgb(48, 47, 47);
+   margin-top: 9px;
+  margin-right: 1rem;
+  margin-left: 5vw;
+  
+}
+
+@media screen and (max-width :553px) {
+    .submit {
+        width: 28vw;
+    }
+
+    .input {
+       
+        border-radius: 15px;
+        width: 60vw;
+        height: 6vh;
+    
+    }
+    
+}
